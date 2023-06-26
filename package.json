@@ -1,0 +1,27 @@
+{
+  "name": "gulp-project-template",
+  "version": "1.0.0",
+  "license": "LicenseRef-LICENSE",
+  "scripts": {
+    "build": "gulp --no-color build",
+    "publish": "gulp --no-color publish",
+    "watch": "gulp --no-color watch"
+  },
+  "devDependencies": {
+    "@types/gulp": "^4.0.11",
+    "@types/gulp-sass": "^5.0.1",
+    "@types/gulp-sourcemaps": "^0.0.36",
+    "@types/gulp-uglify": "^3.0.8",
+    "del": "6.1.1",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "gulp-uglify": "^3.0.2",
+    "sass": "^1.63.6",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.3"
+  }
+}
